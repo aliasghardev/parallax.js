@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: mooly;
+    src: url("../font/Mooli-Regular.ttf") format("opentype");
+}
+
+@keyframes identifier {
+    0%{left: -100%;}
+    100%{left: 100%;}
+}
+
+.drag{
+    animation: identifier 10s linear infinite;
+}
